@@ -1,0 +1,6 @@
+node_modules/
+generation-state.json
+src/
+tailwind.config.js
+*.log
+.DS_Store

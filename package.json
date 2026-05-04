@@ -1,0 +1,14 @@
+{
+  "name": "car-scrap-doorway",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "css": "npx @tailwindcss/cli -i src/input.css -o dist/styles.css --minify",
+    "build": "node build.js --limit 0 && npm run css",
+    "build:batch": "node build.js && npm run css"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "tailwindcss": "^4.2.4"
+  }
+}
