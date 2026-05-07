@@ -42,7 +42,7 @@ if (!fs.existsSync(TEMPLATE_PATH)) {
 if (!fs.existsSync(DIST_DIR)) fs.mkdirSync(DIST_DIR, { recursive: true });
 
 // ── Copy images/ → dist/images/ ───────────────────────────────────────────
-const IMAGES_SRC = path.join(ROOT, 'images');
+const IMAGES_SRC = path.join(ROOT, 'img-new-web');
 const IMAGES_DST = path.join(DIST_DIR, 'images');
 if (fs.existsSync(IMAGES_SRC)) {
     if (!fs.existsSync(IMAGES_DST)) fs.mkdirSync(IMAGES_DST, { recursive: true });
