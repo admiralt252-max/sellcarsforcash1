@@ -217,7 +217,7 @@ const spinPool = {
         '{{CITY}} {{CONDITION}} {{MODEL}}: {Instant Cash Offer|We Buy Today|Free On-Site Quote}',
         'Get {Paid|Cash} for Your {{MODEL}} in {{CITY}} — {No Fees|No Waiting|We Come to You}',
         'We {Buy|Purchase} {{CONDITION}} {{MODEL}} in {{CITY}} — {Offer in 60 Seconds|Same-Day Payment}',
-        '{{CONDITION}} {{MODEL}} for Sale in {{CITY}}? {We Buy|Cash Offer|Get Paid} Today',
+        'Sell Your {{CONDITION}} {{MODEL}} in {{CITY}} — {Cash Offer|Get Paid|Instant Quote} Today',
         '{Quick Sale|Fast Cash} for Your {{MODEL}} in {{CITY}} — {{CONDITION}} Condition OK',
         'Cash for {{MODEL}} in {{CITY}} | {{CONDITION}} Cars | We Buy Cars Ontario',
         'Sell {{CONDITION}} {{MODEL}} {{CITY}} — {Instant Offer|Top Price|No Middleman}',
