@@ -89,7 +89,7 @@
         </div>
       </div>
       <!-- Hero illustration -->
-      <div class="hidden lg:flex flex-shrink-0 items-center justify-center w-72 xl:w-80">
+      <div class="hidden lg:flex shrink-0 items-center justify-center w-72 xl:w-80">
         <svg viewBox="0 0 320 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full opacity-90" role="img" aria-label="We buy {{MODEL}} in {{CITY}}">
           <rect width="320" height="200" rx="16" fill="#1e293b"/>
           <rect x="20" y="90" width="280" height="60" rx="10" fill="#334155"/>
@@ -380,7 +380,7 @@
   </footer>
 
   <!-- ── CALLBACK MODAL ─────────────────────────────────────────────────── -->
-  <div id="cb-modal" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4" style="background:rgba(0,0,0,0.6);">
+  <div id="cb-modal" class="fixed inset-0 z-100 items-center justify-center p-4 hidden" style="background:rgba(0,0,0,0.6);">
     <div class="bg-white rounded-2xl shadow-2xl w-full max-w-md p-8 relative">
       <button onclick="document.getElementById('cb-modal').classList.add('hidden')"
               class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 text-2xl leading-none cursor-pointer">&times;</button>
