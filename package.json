@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "css": "npx @tailwindcss/cli -i src/input.css -o dist/styles.css --minify",
-    "build": "node build.js --limit 0 && npm run css",
     "build:batch": "node build.js && npm run css"
   },
   "devDependencies": {

@@ -94,7 +94,7 @@ const effectiveLimit = (LIMIT === 0) ? TOTAL : LIMIT;
 const endIndex       = Math.min(startIndex + effectiveLimit, TOTAL);  // exclusive
 const batch          = allCombinations.slice(startIndex, endIndex);
 
-console.log(`🚀  ontariocarbuyer.ca generator`);
+console.log(`🚀  sellcarsforcash.ca generator`);
 console.log(`    Total combinations : ${TOTAL}`);
 console.log(`    Already generated  : ${state.totalGenerated}`);
 console.log(`    This batch         : ${batch.length} pages (index ${startIndex}–${endIndex - 1})`);
